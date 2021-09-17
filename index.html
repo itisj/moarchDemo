@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="icon" type="image/svg+xml" href="favicon.svg" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>modern arch</title>
+    <style>
+			body { 
+        margin: 0; 
+        padding: 0;
+        background-color: white;
+      }
+      .flex{
+        display: flex;
+      }
+      .left{
+        padding: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        flex: 0 0 50vw;
+      }
+		</style>
+  </head>
+  <body>
+    <div class="flex">
+      <div class="left">
+        <button id="scene1">main</button>
+        <button id="scene2"><a href="./savoye.html">plane</a></button>
+        <button id="scene3"><a href="https://i.simmer.io/@dgjjj1012ti/moarchtest" target="_blank">savoye</a></button>
+        
+        <h1>Villa Savoye / Le Corbusier</h1>
+        <div>
+          <img src="./img/savoye1.jpg" style="max-width: 45vw;">
+        </div>
+        <h3>Introduction</h3>
+        <p>Completed in 1931 by Le Corbusier and Pierre Jeanneret in Poissy, 
+          The Villa Savoye is one of the most significant contributions to modern 
+          architecture in the 20th century and an outstanding example of the 
+          International style. The revolutionary building is also an early 
+          example of the architect’s “five points” for new constructions.</p>
+        <h3>The Five Points</h3>
+        <p>Early in his career, Le Corbusier developed a set of architectural principles 
+          that dictated his technique, which he called the "Five Points of Modern Architecture" 
+          (French: Cinq points de l'architecture moderne). They are considered 
+          to be most evident in his Villa Savoye. The five points are:</p>
+        <p>&#9899; Pilotis – replacement of supporting walls by a grid of reinforced concrete 
+          columns that bears the structural load is the basis of the new aesthetic</p>
+        <p>&#9899; The free designing of the ground plan – the absence of supporting walls – 
+          means the house is unrestrained in its internal use</p>
+        <p>&#9899; The free design of the façade – separating the exterior of the building 
+          from its structural function – sets the façade free from structural constraints</p>
+        <p>&#9899; The horizontal window, which cuts the façade along its entire length, lights rooms equally</p>
+        <p>&#9899; Roof gardens on a flat roof can serve a domestic purpose while 
+          providing essential protection to the concrete roof.</p>
+        <div>
+            <img src="./img/savoye2.jpg" style="max-width: 45vw;">
+        </div>
+        <h3>Dom-Ino House</h3>
+        <div>
+          <img src="./img/savoye3.jpg" style="max-width: 45vw;">
+        </div>
+        <p>Dom-Ino House (French: Maison Dom-Ino) is an open floor plan modular structure 
+          designed by the pioneering architect Le Corbusier in 1914–1915. This design became 
+          the foundation for most of his architecture for the next ten years.</p>
+        <p>This model proposed an open floor plan consisting of concrete slabs supported 
+          by a minimal number of thin, reinforced concrete columns around the edges, 
+          with a stairway providing access to each level on one side of the floor plan. 
+          The frame was to be completely independent of the floor plans of the houses thus 
+          giving freedom to design the interior configuration. The model eliminated load-bearing 
+          walls and the supporting beams for the ceiling.This model proposed an open floor plan 
+          consisting of concrete slabs supported by a minimal number of thin, reinforced concrete 
+          columns around the edges, with a stairway providing access to each level on one side of 
+          the floor plan. The frame was to be completely independent of the floor plans of the 
+          houses thus giving freedom to design the interior configuration. The model eliminated 
+          load-bearing walls and the supporting beams for the ceiling.</p>
+
+      </div>
+      <div style="flex: 1 1 0; height: 100vh; width: 46vw; position: fixed; top: 0; right: 0;" id="canvasContainer">
+        <canvas></canvas>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
